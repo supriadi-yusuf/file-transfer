@@ -3,11 +3,14 @@ This application is simply to transfer file between two pc in a network.
 on the server side file that we want to transfer must be put in source folder.
 client side must have folder destination to store received file.
 
+
 Compiling source code :
 1. for server side application
+
    g++ file_sender.cpp tcpfileserver.cpp tcpsender.cpp filereader.cpp -o send_file
  
 2. for client side application
+
    g++ file_receiver.cpp tcpreceiver.cpp filewriter.cpp -o receive_file
    
    
