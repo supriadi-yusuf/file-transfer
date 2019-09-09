@@ -10,10 +10,10 @@ Compiling source code :
 2. for client side application
    g++ file_receiver.cpp tcpreceiver.cpp filewriter.cpp -o receive_file
    
-command for transfering file :
+Command for transfering file :
   ./send_file <port> <file_name>
   example : ./send_file 20001 "Iterator Pattern – Design Patterns (ep 16).mp4"
   
-command for receiving file :
+Command for receiving file :
   ./receive_file <ip_address> <port>
   example : ./receive_file 127.0.0.1 20001
